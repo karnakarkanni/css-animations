@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .kk{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background-color: rgb(67, 44, 241);
+        animation-name: colorchenge;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes colorchenge{
+        0%{
+            transform: translatex(0px) translateY(0px);
+            background-color: black;
+
+        }
+        25%{
+            transform: translatex(200px) translateY(0px);
+            background-color: brown;
+
+        }
+        50%
+        {
+            transform: translatex(200px) translateY(200px);
+            background-color: blue;
+           
+        }
+        70%
+        {transform: translatex(0px) translateY(200px);
+            background-color: chartreuse;
+        }
+        100%
+        {transform: translatex(0px) translateY(0px);
+            background-color: chartreuse;
+        }
+        
+    }
+
+</style>
+<body>
+    <div class="kk">
+
+    </div>
+</body>
+</html>
